@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Juego adivinar</title>
+</head>
+<body>
+    <h1 id="title">Adivina quien soy?</h1>
+    <form id="form">
+    <div class="playJuego">
+        <button id="playJuego"  type="submit" class=""> Jugar </button>
+    </div>
+    
+    <div class="contenedorImg">
+        
+        <img id="imgPersonaje" class="imgPersonaje" src="" alt="" ondragstart="return false;">
+        <embed  id="musica" src="" start="fileopen" autostart="true" loop="true"  volumen="81" width="0" height="0" type="">
+        <img id="resultadoFinal" class="results" src="" alt="">
+    </div>
+    <div class="contenedorPreguntas">
+        <div class="pregunta">
+            <div class="divPregunta"> <input type="text" value="" size="40" id="pregunta0"></div>
+                <div class="divRespuesta" > 
+                    <select name="" id="respuesta0">
+                        <option value="">Escoja</option>
+                        <option value="si">Si</option>
+                        <option value="no">No</option>
+                    </select> 
+                </div>
+                <div class="divIco"><img id="icoRta0" class="icoRta" src="" alt=""></div>
+        </div>
+        <div class="pregunta">
+            <div class="divPregunta"> <input type="text" value="" size="40" id="pregunta1"></div>
+                <div class="divRespuesta"> 
+                    <select name="" id="respuesta1">
+                        <option value="">Escoja</option>
+                        <option value="si">Si</option>
+                        <option value="no">No</option>
+                    </select> 
+                </div>
+                <div class="divIco"><img id="icoRta1" class="icoRta" src="" alt=""></div>
+        </div>
+        <div class="pregunta">
+            <div class="divPregunta"> <input type="text" value="" size="40" id="pregunta2"></div>
+                <div class="divRespuesta"> 
+                    <select name="" id="respuesta2">
+                        <option value="">Escoja</option>
+                        <option value="si">Si</option>
+                        <option value="no">No</option>
+                    </select> 
+                </div>
+                <div class="divIco"><img id="icoRta2" class="icoRta" src="" alt=""></div>
+        </div>
+        <div class="pregunta">
+            <div class="divPregunta"> <input type="text" value="" size="40" id="pregunta3"></div>
+                <div class="divRespuesta"> 
+                    <select name="" id="respuesta3">
+                        <option value="">Escoja</option>
+                        <option value="si">Si</option>
+                        <option value="no">No</option>
+                    </select> 
+                </div>
+                <div class="divIco"><img id="icoRta3" class="icoRta" src="" alt=""></div>
+        </div>
+        <div class="pregunta">
+            <div class="divPregunta"> <input type="text" value="" size="40" id="pregunta4"></div>
+                <div class="divRespuesta" > 
+                    <select name="" id="respuesta4">
+                        <option value="">Escoja</option>
+                        <option value="si">Si</option>
+                        <option value="no">No</option>
+                    </select> 
+                </div>
+                <div class="divIco"><img id="icoRta4" class="icoRta" src="" alt=""></div>
+        </div>   
+    </div>
+    
+
+    <div class="contenedorPreguntas">
+        <div class="pregunta">
+            <div class="divPregunta"> <input id="respuestaGeneral1" type="text" value="" placeholder="Aqui su respuesta" size="40" required> </div>
+                <div class="divRespuesta"> 
+                    <button type="button" id="btnRespuesta">Responder</button>
+
+                </div><br>
+        </div>
+    </div>
+    </form>
+
+    <div class="contenedorPreguntas">
+        <div class="pregunta">
+            <label for="">Correctas:</label>
+            <input type="text" id="correctas" value="" readonly> 
+            <label for="">Incorrectas:</label>
+            <input type="text"id="incorrectas" value="" readonly>
+        </div>
+    </div>
+
+
+    <script src="/assets/js/juegoLogic.js"></script>
+</body>
+</html>
