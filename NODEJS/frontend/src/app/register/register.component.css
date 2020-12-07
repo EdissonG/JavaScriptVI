@@ -1,0 +1,68 @@
+.content {
+	background-color: rgb(204, 204, 204);
+	border-radius: 8px;
+	box-sizing: border-box;
+	color: #666;
+	font-size: 1.6em;
+	line-height: 1.4em;
+	margin: 20px auto;
+	margin-top: 80px;
+	padding: 20px;
+	width: 50%;
+	max-width: 500px;
+}
+
+
+.register {
+  max-width: 500px;
+  margin: auto;
+}
+.register-header {
+  margin: 25px;
+}
+
+.register-form {
+  border: 0.5px solid #fff;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #000;
+}
+
+.register-form {
+  box-sizing: border-box;
+  padding-top: 15px;
+  padding-bottom: 10%;
+  margin: 5% auto;
+  text-align: center;
+}
+
+.register input[type="text"],
+.register input[type="email"],
+.register input[type="password"] {
+  max-width: 400px;
+  width: 80%;
+  line-height: 3em;
+  font-family: "Inconsolata", monospace;
+  margin: 1em 2em;
+  border-radius: 5px;
+  border: 2px solid #f2f2f2;
+  outline: none;
+  padding-left: 10px;
+}
+.register-form button[type="submit"] {
+  height: 30px;
+  width: 100px;
+  background: rgb(0, 131, 253);
+  border: 1px solid #f2f2f2;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-family: "Inconsolata", monospace;
+  cursor: pointer;
+}
+.log-in {
+  color: #0985fa;
+  margin-left: -70%;
+  cursor: pointer;
+  text-decoration: underline;
+}

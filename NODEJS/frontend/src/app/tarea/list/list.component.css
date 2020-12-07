@@ -1,0 +1,115 @@
+/* CARDS */
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+ol,
+ul,
+pre {
+  margin: 0;
+  padding: 0;
+}
+.html,
+.body {
+  min-height: 100%;
+}
+
+.body {
+  background-color: rgb(255, 255, 255);
+  color: #eee;
+  font-family: "Lato", sans-serif;
+  font-size: 62.5%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.content {
+  background-color: rgb(204, 204, 204);
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #666;
+  font-size: 1.6em;
+  line-height: 1.4em;
+  margin: 20px auto;
+  margin-top: 80px;
+  padding: 20px;
+  width: 80%;
+  max-width: 800px;
+}
+.content ul {
+  margin: 0.5em 2em;
+  padding: 0;
+}
+.contenedorCards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-between;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.cards {
+  background-color: #eee;
+  border-radius: 20px;
+  box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.cards .foto {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+}
+
+.cards .foto img {
+  margin-top: 20px;
+  max-width: 90%;
+}
+
+.txtSmall {
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+}
+
+.txtP {
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+}
+
+.button-padre {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-between;
+  justify-content: center;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: 0;
+}
+
+button {
+  padding: 5px 10px;
+}
+.button {
+  color: #ffffff;
+  background-color: #ff0000;
+  border-radius: 20px;
+}

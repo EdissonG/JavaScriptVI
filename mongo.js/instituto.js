@@ -338,6 +338,8 @@ db.profe_cur_detalle.find().pretty()
 // Detalles curso e estudiantes
 db.curs_estu_detalle.find().pretty()
 
+db.profe_cur_detalle.find({"idprofesor":2}).pretty()
+
 
 db.profesores.aggregate([
     {
